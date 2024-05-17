@@ -1,0 +1,17 @@
+- macro: canine
+  fields:
+    sound: barks
+    legs: 4
+    family: Caninae
+
+- object: Animal
+  include: canine
+  fields:
+    species: dog
+    home: inside
+
+- object: Animal
+  include: canine
+  fields:
+    species: wolf
+    home: outside

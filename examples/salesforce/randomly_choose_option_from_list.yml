@@ -1,0 +1,12 @@
+- object: Task
+  fields:
+    person_doing_the_task:
+      random_choice:
+        - object: Contact
+          fields:
+            FirstName: Bart
+            LastName: Simpson
+        - object: Lead
+          fields:
+            FirstName: Marge
+            LastName: Simpson
